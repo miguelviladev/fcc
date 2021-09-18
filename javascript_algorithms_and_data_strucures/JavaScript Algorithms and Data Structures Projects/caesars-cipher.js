@@ -5,9 +5,9 @@ function rot13(str) {
   for (let i = 0; i < strArr.length; i++) {
     if (alph.indexOf(strArr[i]) >= 0) {
       if (alph.indexOf(strArr[i]) + 13 > alph.length -1) {
-        strArr[i] = (alph[alph.indexOf(strArr[i]) -13])
+        strArr[i] = (alph[alph.indexOf(strArr[i]) -13]);
       } else {
-        strArr[i] = (alph[alph.indexOf(strArr[i]) + 13])
+        strArr[i] = (alph[alph.indexOf(strArr[i]) + 13]);
       }
     }
   }
